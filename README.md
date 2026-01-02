@@ -1,1 +1,25 @@
+# Verilog Median Filter
+
+This repository contains the implementation and simulation of a **3×3 median filter** for grayscale images. The project includes both **Python simulation** and **Verilog implementation**, along with example input and output images.
+
+---
+
+## Project Overview
+
+The median filter is a **non-linear filter** that works as follows:
+
+- For each pixel, a sliding window of size **N × N** (here N = 3) is applied.
+- The pixel values in the window are **sorted in ascending order**.
+- The **central pixel** is replaced with the **median value** of the window.
+
+To verify and optimize the algorithm before hardware implementation, a **Python simulation** was performed with the following steps:
+
+1. **Convert BMP to pixel data:** The input grayscale image (`input.bmp`) is read in Python and converted to an array of pixel values. Each pixel is represented in **hexadecimal** and saved to `input.hex`, which serves as the input for both Python and Verilog simulations.  
+2. **Median filtering:** A **3×3 sliding window** is applied to all pixels. The filtered output is saved to `output.hex`.  
+3. **Convert back to BMP:** The hexadecimal output file is converted back to grayscale BMP (`output.bmp`) for evaluation.  
+4. **Quality evaluation:** The filtered image is compared to the original (`original.bmp`) using **PSNR** and **SSIM** metrics.
+
+---
+
+## Folder Structure
 
