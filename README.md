@@ -41,3 +41,14 @@ To verify and optimize the algorithm before hardware implementation, a **Python 
 │   └── original.hex    # Original clean image for evaluation
 └── README.md
 
+---
+
+## Example Images
+
+**Figure 1:** Example of input noisy image and filtered output.  
+
+![Input and Filtered Output](images/input_output_example.png)
+
+**Figure 2:** Workflow of the median filter simulation in Python.  
+
+![Python Simulation Flow](images/python_simulation_flow.png)
