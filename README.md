@@ -50,7 +50,7 @@ To verify and optimize the algorithm before hardware implementation, a **Python 
 
 **Figure 1:** Example of input noisy image and filtered output.  
 
-![Input and Filtered Output](images/input_output_example.png)
+![Input and Filtered Output](median_filter_flow.png)
 
 **Figure 2:** Workflow of the median filter simulation in Python.  
 
