@@ -39,7 +39,7 @@ To verify and optimize the algorithm before hardware implementation, a **Python 
 │   ├── input.hex       # Hex data for noisy image
 │   ├── output.hex      # Filtered image from Python
 │   ├── verilog.hex     # Filtered image from Verilog
-│   └── original.hex    # Original clean image for evaluation
+│   └── original.bmp    # Original clean image for evaluation
 └── README.md
 ```
 
