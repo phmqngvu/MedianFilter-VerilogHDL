@@ -37,7 +37,8 @@ To verify and optimize the algorithm before hardware implementation, a **Python 
 ├── images/             # Example input/output images
 │   ├── input.bmp       # Noisy image (salt-and-pepper noise)
 │   ├── input.hex       # Hex data for noisy image
-│   ├── output.hex      # Filtered image from Python
+│   ├── output.bmp      # Filtered image from Python
+│   ├── output.hex      # Hex data for filtered image
 │   ├── verilog.hex     # Filtered image from Verilog
 │   └── original.bmp    # Original clean image for evaluation
 └── README.md
