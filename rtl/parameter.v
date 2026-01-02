@@ -1,8 +1,0 @@
-`define PIXEL_WIDTH 8
-
-`define IMAGE_WIDTH 430
-`define X_WIDTH 8
-`define IMAGE_HEIGHT 554
-`define Y_WIDTH 9
-
-`define TOTAL_PIXELS (`IMAGE_WIDTH * `IMAGE_HEIGHT)
