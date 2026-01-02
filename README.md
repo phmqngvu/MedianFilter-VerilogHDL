@@ -22,7 +22,7 @@ To verify and optimize the algorithm before hardware implementation, a **Python 
 ---
 
 ## Folder Structure
-'''
+```
 ├── python/             # Python simulation scripts
 │   ├── 1_bmp_to_hex.py
 │   ├── 2_median_filter.py
@@ -41,7 +41,7 @@ To verify and optimize the algorithm before hardware implementation, a **Python 
 │   ├── verilog.hex     # Filtered image from Verilog
 │   └── original.hex    # Original clean image for evaluation
 └── README.md
-'''
+```
 
 ---
 
