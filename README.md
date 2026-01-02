@@ -22,4 +22,21 @@ To verify and optimize the algorithm before hardware implementation, a **Python 
 ---
 
 ## Folder Structure
-
+├── python/ # Python simulation scripts
+│ ├── 1_bmp_to_hex.py
+│ ├── 2_median_filter.py
+│ ├── 3_hex_to_bmp.py
+│ └── 4_image_evaluation.py
+├── rtl / # Verilog implementation
+│ ├── find_min_max.v
+│ ├── find_min_mid_max.v
+│ ├── median_3x3.v
+│ ├── tb_median_filter.v
+│ └── tb_median_filter_pro.v
+├── images/ # Example input/output images
+│ ├── input.bmp # Noisy image (salt-and-pepper noise)
+│ ├── input.hex # Hex data for noisy image
+│ ├── output.hex # Filtered image from Python
+│ ├── verilog.hex # Filtered image from Verilog
+│ └── original.hex # Original clean image for evaluation
+└── README.md
